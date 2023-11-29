@@ -54,10 +54,10 @@ nav div {
 .content .left-content {
     width: 50%;
 }
-.content .left-content h2, p {
+/* .content .left-content h2, p {
     margin-left: 10%;
     text-align: justify;
-}
+} */
 .content .left-content h2 {
     margin-left: 10%;
     font-size: 40px;
@@ -67,6 +67,7 @@ nav div {
 }
 .content .left-content p {
     margin-left: 10%;
+    margin-bottom: 40px;
     font-weight: 500;
     text-align: justify;
 }
@@ -79,7 +80,7 @@ nav div {
     margin-top: 10px;
     transition: background-color 0.3s ease;
 } */
-.content .left-content .a-see-features {
+.content .left-content a {
     border: 1px solid;
     border-radius: 5px;
     text-decoration: none;
@@ -88,10 +89,9 @@ nav div {
     font-weight: 600;
     padding: 10px 10px;
     margin-left: 10%;
-    margin-top: 10px;
     transition: background-color 0.3s ease;
 }
-.content .left-content .a-see-features:hover {
+.content .left-content a:hover {
     background-color: rgb(255, 255, 255) !important;
     color: black !important;
 }
@@ -102,7 +102,6 @@ nav div {
     justify-content: center;
     align-items: center;
 }
-
 .content .right-content img {
     width: 55%;
     margin: auto;
