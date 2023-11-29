@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #FF5B22, #FFD700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.login-container {
+    /* max-width: 400px; */
+    width: 400px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    color: white;
+}
+
+input, label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent !important;
+    color: white;
+}
+input:hover,
+input:focus {
+    border-bottom: 2px solid #ffffff;
+    transition: border-bottom 0.3s ease;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Radio type */
+/* .radio-type {
+    display: flex;
+    align-items: center;
+}
+.radio-type .radio-type-list {
+    display: flex;
+    margin-left: 10px;
+}
+.radio-type .radio-type-list div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.radio-type input[type="radio"] {
+    margin-right: 5px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+label[for="male"],
+label[for="female"] {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+} */
+
+button {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255) !important;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+}

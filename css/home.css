@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #FF5B22, #FFD700);
+}
+
+/* Navbar */
+nav div {
+    background-color: transparent !important;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white !important;
+}
+.navbar-list .logo h1 {
+    font-weight: 900;
+    margin: 0;
+}
+.navbar-list a {
+    margin: 1px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: color 0.3s ease;
+    font-weight: 600;
+}
+
+.navbar-list a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.navbar-list a:hover:after {
+    transform: scaleX(1);
+}
+
+
+/* Home content */
+.content {
+    margin-top: 80px;
+    display: flex;
+    color: white !important;
+}
+/* Left */
+.content .left-content {
+    width: 50%;
+}
+.content .left-content h2, p {
+    margin-left: 10%;
+    text-align: justify;
+}
+.content .left-content h2 {
+    margin-left: 10%;
+    font-size: 40px;
+    white-space: nowrap;
+    font-weight: 700;
+    text-align: justify;
+}
+.content .left-content p {
+    margin-left: 10%;
+    font-weight: 500;
+    text-align: justify;
+}
+/* .content .left-content button {
+    background-color: transparent !important;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 10%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+} */
+.content .left-content .a-see-features {
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 10px;
+    margin-left: 10%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.content .left-content .a-see-features:hover {
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+/* Right */
+.content .right-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right-content img {
+    width: 55%;
+    margin: auto;
+    display: block;
+}
+
+
