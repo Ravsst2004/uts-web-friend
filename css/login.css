@@ -3,21 +3,58 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #FF5B22, #FFD700);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 90vh;
 }
 
+/* Navbar */
+nav div {
+    background-color: transparent !important;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white !important;
+}
+.navbar-list .logo h1 {
+    font-weight: 900;
+    margin: 0;
+}
+.navbar-list a {
+    margin: 1px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: color 0.3s ease;
+    font-weight: 600;
+}
+
+.navbar-list a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.navbar-list a:hover:after {
+    transform: scaleX(1);
+}
+
+/* Login box */
 .login-container {
-    /* max-width: 400px; */
     width: 400px;
     padding: 20px;
     background-color: transparent;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
+    margin: auto;
+    margin-top: 140px;
     color: white;
+
 }
 
 input, label {
