@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #FF5B22, #FFD700);
+    color: white;
+    font-weight: 500;
 }
 
 /* Navbar */
@@ -47,9 +49,9 @@ nav div {
 /* List */
 .list-group {
     display: flex;
-    margin-top: 35px;
+    margin-top: 80px;
 }
-/* left */
+/* left list */
 .left-list {
     width: 30%;
     margin: auto;
@@ -76,9 +78,103 @@ nav div {
 .left-list a:hover {
     background: linear-gradient(to right, #FFD700, #FF5B22);
 }
-/* right */
+/* right list */
 .right-list {
     width: 50%;
     margin: auto;
     text-align: justify;
 }
+
+
+/* Video */
+.video {
+    display: flex;
+    margin-top: 100px;
+}
+/* left video */
+.left-video {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+}
+/* right vide */
+.right-video {
+    width: 30%;
+    /* margin-top: 20px; */
+    margin: auto;
+}
+.right-video video {
+    box-shadow: -0px 5px 15px 10px rgba(0, 0, 0, 0.1), 0px 5px 15px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+/* Link YT */
+.link-yt {
+    display: flex;
+    margin-top: 100px;
+}
+/* left link */
+.left-link {
+    width: 30%;
+    margin: auto;
+}
+.left-link iframe{
+    box-shadow: -0px 5px 15px 10px rgba(0, 0, 0, 0.1), 0px 5px 15px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+/* right link */
+.right-link {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+/* Card - Image */
+.card-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 30%;
+    cursor: pointer;
+}
+.card img {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+.card p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 15px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Table */
+table {
+    width: 94%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+

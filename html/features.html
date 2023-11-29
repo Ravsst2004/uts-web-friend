@@ -34,25 +34,115 @@
     </nav>
 
 
+    
     <!-- List -->
+    <div id="list"></div>
     <div class="list-group">
-        <div class="left-list" id="list">
+        <div class="left-list">
             <ol>
                 <li><a href="#list">List</a></li>
-                <li><a href="">Video</a></li>
-                <li><a href="">Image</a></li>
-                <li><a href="">Table</a></li>
-                <li><a href="">Link</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#link">Link</a></li>
+                <li><a href="#image">Image</a></li>
+                <li><a href="#table">Table</a></li>
             </ol>
         </div>
         <div class="right-list">
+            <h2>List</h2>
             <p>
                 In HTML, lists are used to organize and structure information on a webpage in a hierarchical or sequential manner. Lists provide a way to present content in a more readable and logical format, making it easier for users to understand relationships between different pieces of information.</p>
         </div>
     </div>
 
+    <!-- Video -->
+    <div id="video"></div>
+    <div class="video" >
+        <div class="left-video">
+            <h2>Video</h2>
+            <p>The <code>&lt;video&gt;</code> tag in HTML allows direct embedding of video content. Its basic structure, exemplified by <code>&lt;video src="example.mp4" controls&gt;&lt;/video&gt;</code>, includes the video source and playback controls. Additional attributes like <code>width</code>, <code>height</code>, <code>autoplay</code>, and <code>loop</code> offer customization. To ensure compatibility, use multiple source formats with <code>&lt;source&gt;</code>. Including fallback content provides a seamless experience in case of unsupported formats. Overall, the <code>&lt;video&gt;</code> tag enhances websites with dynamic multimedia experiences.</p>
+        </div>
+        <div class="right-video">
+            <video style="width: 100%;" src="../video/video.mp4" controls></video>
+            <!-- <video style="width: 100%;" controls poster="../img/black-screen.png">
+                <source src="../video/video.mp4">
+                Your browser does not support the video tag.
+            </video> -->
+        </div>
+    </div>
+
+    <!-- Link YT -->
+    <div id="link"></div>
+    <div class="link-yt" >
+        <div class="left-link">
+            <iframe 
+                width="480" height="290" src="https://www.youtube.com/embed/-NEGsRc3fbA?si=GnHG-CaHAAXrgyxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
+        <div class="right-link">
+            <h2>Youtube Link</h2>
+            <p>
+                The <code>&lt;iframe&gt;</code> (inline frame) in HTML is used to embed another HTML document within the current document. It acts as a viewport into the content of the embedded document. The basic syntax includes attributes such as <code>src</code> for the URL, <code>width</code> and <code>height</code> for dimensions, <code>frameborder</code> for border display, and <code>allowfullscreen</code> for full-screen mode.
+            </p>
+        </div>
+    </div>
     
 
+    <!-- Image -->
+    <h2 style="text-align: center; margin-top: 150px;" id="image">Image</h2>
+    <div class="card-group">
+        <div class="card">
+            <div>
+                <img style="width: 100%;" src="../img/logo_poltek.png" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, commodi impedit earum ducimus aliquam similique, recusandae esse culpa laboriosam sunt illo. Quibusdam inventore dolor magni voluptatum debitis rerum iusto dignissimos!</p>
+        </div>
+        <div class="card">
+            <div>
+                <img style="width: 100%;" src="../img/logo_poltek.png" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, commodi impedit earum ducimus aliquam similique, recusandae esse culpa laboriosam sunt illo. Quibusdam inventore dolor magni voluptatum debitis rerum iusto dignissimos!</p>
+        </div>
+        <div class="card">
+            <div>
+                <img style="width: 100%;" src="../img/logo_poltek.png" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, commodi impedit earum ducimus aliquam similique, recusandae esse culpa laboriosam sunt illo. Quibusdam inventore dolor magni voluptatum debitis rerum iusto dignissimos!</p>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <h2 style="text-align: center; margin-top: 150px;" id="table">Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>kadek</td>
+                <td>KD_gaming</td>
+                <td>kadek_jaya@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>john</td>
+                <td>john_doe</td>
+                <td>john_doe@email.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>alice</td>
+                <td>alice123</td>
+                <td>alice@email.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
 
 </body>
 </html>
