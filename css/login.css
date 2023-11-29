@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #FF5B22, #FFD700);
-    height: 90vh;
 }
 
 /* Navbar */
@@ -50,13 +49,12 @@ nav div {
     padding: 20px;
     background-color: transparent;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: -0px 5px 15px 10px rgba(0, 0, 0, 0.1), 0px 5px 15px 10px rgba(0, 0, 0, 0.1);
     margin: auto;
     margin-top: 140px;
     color: white;
 
 }
-
 input, label {
     display: block;
     margin-bottom: 10px;

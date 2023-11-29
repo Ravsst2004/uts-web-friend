@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #FF5B22, #FFD700);
+}
+
+/* Navbar */
+nav div {
+    background-color: transparent !important;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white !important;
+}
+.navbar-list .logo h1 {
+    font-weight: 900;
+    margin: 0;
+}
+.navbar-list a {
+    margin: 1px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: color 0.3s ease;
+    font-weight: 600;
+}
+
+.navbar-list a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.navbar-list a:hover:after {
+    transform: scaleX(1);
+}
+
+
+/* List */
+.list-group {
+    display: flex;
+    margin-top: 35px;
+}
+/* left */
+.left-list {
+    width: 30%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: -0px 5px 15px 10px rgba(0, 0, 0, 0.1), 0px 5px 15px 10px rgba(0, 0, 0, 0.1);
+}
+.left-list ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.left-list li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.left-list a {
+    display: block;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.left-list a:hover {
+    background: linear-gradient(to right, #FFD700, #FF5B22);
+}
+/* right */
+.right-list {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
