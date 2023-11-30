@@ -1,8 +1,7 @@
 # uts-web-friend
-This is the website result of my friend's UTS (exam) questions. 
-<br>
-I just rebuild the code of my friend exam -> https://github.com/Antsst 
-<br>
+This is the website result of my friend's UTS (exam) questions. <br>
+I just rebuild the code of my friend exam -> https://github.com/Antsst <br>
+FYI: This website is still not responsive <br>
 
 
 Questions:
