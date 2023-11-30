@@ -27,7 +27,6 @@ nav div {
     transition: color 0.3s ease;
     font-weight: 600;
 }
-
 .navbar-list a:after {
     content: '';
     position: absolute;
@@ -42,7 +41,6 @@ nav div {
 .navbar-list a:hover:after {
     transform: scaleX(1);
 }
-
 
 /* Home content */
 .content {
