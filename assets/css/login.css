@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #FF5B22, #FFD700);
+    /* background-image: url("../img/bg.jpg");
+    background-size: 100%; */
 }
 
 /* Navbar */
