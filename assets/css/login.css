@@ -119,6 +119,7 @@ button {
     color: white;
     padding: 10px 15px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 button:hover {
