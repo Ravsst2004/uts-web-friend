@@ -53,7 +53,7 @@ nav div {
     border-radius: 8px;
     box-shadow: -0px 5px 15px 10px rgba(0, 0, 0, 0.1), 0px 5px 15px 10px rgba(0, 0, 0, 0.1);
     margin: auto;
-    margin-top: 140px;
+    margin-top: 100px;
     color: white;
 
 }
@@ -110,7 +110,21 @@ label[for="female"] {
     vertical-align: middle;
 } */
 
+.link-register-forgotpass {
+    margin-top: 10px;
+    text-align: center;
+}
+.link-register-forgotpass a{
+    color: rgb(0, 88, 170);
+    text-decoration: none;
+}
+.link-register-forgotpass a:hover{
+    color: rgb(0, 88, 170);
+    text-decoration: underline;
+}
+
 button {
+    width: 100%;
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255) !important;
     font-size: 15px;
@@ -119,7 +133,9 @@ button {
     color: white;
     padding: 10px 15px;
     cursor: pointer;
+    margin-top: 20px;
     margin-bottom: 20px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
