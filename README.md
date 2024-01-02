@@ -1,13 +1,14 @@
 # uts-web-friend
 
 <p>This is the website result of my friend's UTS (exam) questions.</p>  
-<p>I just rebuild the code of my friend exam -> [https://github.com/Antsst](https://github.com/Antsst/UTS_WEB_HTML) </p>  
+<p>I just rebuild the code of my friend exam -> https://github.com/Antsst/UTS_WEB_HTML</p>  
 
 FYI:
 - This website is still not responsive <br>
-- Website is for front end view design only <br>
+- Website just have front end view design only <br>
 <br>
 
+<p>This is a question from the exam to create this web</p>
 Questions:
 1. Create a heading and paragraph in the html!
 2. Create a login form in HTML
